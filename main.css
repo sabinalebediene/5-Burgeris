@@ -8,7 +8,7 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 word-break: break-all;
 }
 
-body    {
+body {
     background-color: #F49A99;
     margin: 100px;
 }
@@ -54,14 +54,11 @@ body    {
             text-transform: uppercase;
             font-weight: bold;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
-            
-            
         }
             p {
                 display: inline-block;
                 color: #473742;
                 font-size: 27px;
-  
             }
             .DOT4,.DOT5 {
                 display: inline-block;
