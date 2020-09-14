@@ -10,16 +10,8 @@ word-break: break-all;
 
 body    {
     background-color: #F49A99;
-    margin: 200px;
+    margin: 100px;
 }
-    main    {
-        display: inline-block;
-        background-color:#FFF2C5;
-        text-align: center;
-        width: 800px;
-        height: 800px;
-        margin-left: calc( (100% - 800px) / 2 );
-    }
     header {
         display: inline-block;
         width: 800px;
@@ -28,7 +20,15 @@ body    {
         margin-left: calc( (100% - 800px) / 2 );
         padding: 15px;
     }
-        header > img{
+    main {
+        display: inline-block;
+        background-color:#FFF2C5;
+        text-align: center;
+        width: 800px;
+        height: 600px;
+        margin-left: calc( (100% - 800px) / 2 );
+    }
+        header > img {
             display: inline-block;
             float: left;
             margin-left: 15px;
@@ -36,35 +36,38 @@ body    {
         .Burgeris {
             display: inline-block;
             width: 100%; 
-            color: #45B7B8;
-            line-height: 400px;
+            line-height: 200px;
             margin-top: 100px;
         }
             span {
                 display: inline-block;
                 font-size: 230px;
+                color: #45B7B8;
                 font-family: Verdana, Geneva, Tahoma, sans-serif;
             }
             .Burgeris > img {
                 display: inline-block;
-                margin-top: 100px;
+                margin-top: 30px;
             }
-            .NO {
-                display: inline-block;
-                text-transform: uppercase;
-                font-weight: bold;
-                font-family: Verdana, Geneva, Tahoma, sans-serif;
-            }
+        .NO {
+            display: inline-block;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-top: 10px;
+            
+            
+        }
             p {
                 display: inline-block;
                 color: #473742;
-                margin: 0;
+  
             }
-            .DOT4,.DOT5{
+            .DOT4,.DOT5 {
                 display: inline-block;
                 background-color: #ED4E3B;
                 height: 5px;
                 width: 5px;
                 border-radius: 50%;
-                margin: 5px;
+                margin: 6px;
             }
