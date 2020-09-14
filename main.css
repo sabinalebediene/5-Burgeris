@@ -2,7 +2,7 @@ body,
 body * {
 margin: 0;
 padding: 0;
-vertical-align: top;
+/* vertical-align: top; */
 box-sizing: border-box;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 word-break: break-all;
@@ -15,6 +15,7 @@ body    {
     header {
         display: inline-block;
         width: 800px;
+        vertical-align: top;
         background-color: #EE4E3E;
         border-radius: 10px 10px 0 0;
         margin-left: calc( (100% - 800px) / 2 );
@@ -25,7 +26,7 @@ body    {
         background-color:#FFF2C5;
         text-align: center;
         width: 800px;
-        height: 600px;
+        height: 500px;
         margin-left: calc( (100% - 800px) / 2 );
     }
         header > img {
@@ -36,31 +37,30 @@ body    {
         .Burgeris {
             display: inline-block;
             width: 100%; 
-            line-height: 200px;
-            margin-top: 100px;
         }
             span {
                 display: inline-block;
-                font-size: 230px;
+                font-size: 300px;
                 color: #45B7B8;
                 font-family: Verdana, Geneva, Tahoma, sans-serif;
             }
             .Burgeris > img {
                 display: inline-block;
-                margin-top: 30px;
+                margin-bottom: 5px;
+                height: 210px;
             }
         .NO {
             display: inline-block;
             text-transform: uppercase;
             font-weight: bold;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
-            margin-top: 10px;
             
             
         }
             p {
                 display: inline-block;
                 color: #473742;
+                font-size: 27px;
   
             }
             .DOT4,.DOT5 {
